@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "packageManager": "pnpm@11.10.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/index.ts",
+    "type-check": "tsc",
+    "build": "tsup src/index.ts --format esm",
+    "start": "node --env-file=.env dist/index.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^26.1.1",
+    "tsup": "^8.5.1",
     "tsx": "^4.23.0",
     "typescript": "^7.0.2"
   }
