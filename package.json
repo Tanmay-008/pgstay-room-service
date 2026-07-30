@@ -1,6 +1,9 @@
 {
   "name": "room-service",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "description": "",
   "main": "index.js",
   "packageManager": "pnpm@11.10.0",
