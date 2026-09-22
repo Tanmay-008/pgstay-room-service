@@ -33,5 +33,4 @@ jobs:
                 context: .
                 push: true
                 tags: |
-                    ${{ secrets.DOCKERHUB_USERNAME }}/room-service:${{ github.sha }}
-                    ${{ secrets.DOCKERHUB_USERNAME }}/room-service:latest
+                  ${{ secrets.DOCKERHUB_USERNAME }}/pgstay-room-service:1.0.${{ github.run_number }}
