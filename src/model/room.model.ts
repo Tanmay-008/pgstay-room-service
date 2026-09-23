@@ -56,6 +56,5 @@ const CardSchema = new Schema({
     }
 });
 
-const Room = mongoose.model("Room", CardSchema);
-
-module.exports = Room;
+export const Room = mongoose.model("Room", CardSchema);
+export default Room;
