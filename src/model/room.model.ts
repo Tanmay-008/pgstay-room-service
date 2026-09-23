@@ -15,11 +15,11 @@ const CardSchema = new Schema({
     video: {
         type: String
     },
-    Price: {
+    price: {
         type: Number,
         required: true,
     },
-    City: {
+    city: {
         type: String,
 
     },
